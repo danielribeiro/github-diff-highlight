@@ -3,6 +3,7 @@ github-diff-highlight
 
 Simple [dot.js](http://defunkt.io/dotjs/) script that enables syntax highlight for commit diffs on github:
 
+![](https://github.com/danielribeiro/github-diff-highlight/raw/master/docs/example.png)
 
 
 
