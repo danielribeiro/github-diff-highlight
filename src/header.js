@@ -1,4 +1,5 @@
 $(function() {
-	if (window.location.href.split("/")[5] != 'commit') {
+	var action = window.location.href.split("/")[5];
+	if (action != 'commit' && action != 'pulls') {
 		return;
 	}

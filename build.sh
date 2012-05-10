@@ -6,7 +6,7 @@ cd jquery-syntaxhighlighter
 outfile="../pkg/github.com.js"
 $ECHO -n var _INLINE_CSS = \" > $outfile
 cat prettify/prettify.css styles/style.css styles/theme-balupton.css \
-	| $GREP -v '^/[*]' | $TR -d '\n' >>  $outfile
+	| $GREP -v '^/[*]' | $TR '\n' ''>>  $outfile
 $ECHO \"\; >> $outfile
 cat ../src/header.js \
 	./scripts/resources/core.console.js \
