@@ -2,7 +2,7 @@ var _INLINE_CSS = ".str { color: #080; }.kwd { color: #008; }.com { color: #800;
 $(function() {
 	var valid_actions = ['commit', 'pull', 'pulls'],
 	    action = window.location.pathname.split("/")[3];
-	if (!$.inArray(action, valid_actions)) {
+	if ($.inArray(action, valid_actions) === -1) {
 		return;
 	}
 /**
