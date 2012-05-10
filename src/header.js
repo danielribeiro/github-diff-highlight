@@ -1,5 +1,6 @@
 $(function() {
-	var action = window.location.href.split("/")[5];
-	if (action != 'commit' && action != 'pulls' && action != 'pull') {
+	var valid_actions = ['commit', 'pull', 'pulls'],
+	    action = window.location.pathname.split("/")[3];
+	if (!$.inArray(action, valid_actions)) {
 		return;
 	}
