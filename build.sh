@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 ECHO=$(type -P echo)
 GREP=$(type -P grep)
-TR=$(type -P tr)
+PERL=$(type -P perl)
 cd jquery-syntaxhighlighter
 outfile="../pkg/github.com.js"
 $ECHO -n var _INLINE_CSS = \" > $outfile
 cat prettify/prettify.css styles/style.css styles/theme-balupton.css \
-	| $GREP -v '^/[*]' | $TR '\n' ''>>  $outfile
+	| $GREP -v '^/[*]' | $PERL -pne 's/\s*//g' >>  $outfile
 $ECHO \"\; >> $outfile
 cat ../src/header.js \
 	./scripts/resources/core.console.js \
