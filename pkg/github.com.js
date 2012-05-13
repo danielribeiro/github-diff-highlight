@@ -2160,7 +2160,6 @@ window['_pr_isIE6'] = function () {
 		// Chain
 		return this;
 	}
-})(jQuery);
-	$("pre").addClass("highlight");
+})(jQuery);	$(".diff-view pre").addClass("highlight");
 	$.SyntaxHighlighter.init({lineNumbers: false});
 });
