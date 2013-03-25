@@ -2160,7 +2160,13 @@ window['_pr_isIE6'] = function () {
 		// Chain
 		return this;
 	}
-})(jQuery);    $(".diff-line").each(function() {var text = $.trim($(this).text()); $(this).html("<pre></pre>"); $(this).find("pre").text(text); }) 
+})(jQuery);    $(".diff-line").each(function() {
+        var t = $(this);
+        var text = $.trim(t.text());
+        t.contents().filter(function() { return this.nodeType == Node.TEXT_NODE; }).remove()
+        t.append("<pre></pre>");
+        t.find("pre").text(text);
+    }) 
     $(".diff-line pre").addClass("highlight");
     $("td.gd.diff-line pre").css({backgroundColor: "#FDD"});
     $("td.gi.diff-line pre").css({backgroundColor: "#DFD"});
