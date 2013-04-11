@@ -16,3 +16,5 @@ cat ../src/header.js \
 	../src/highlighter_patch.js \
 	../src/footer.js \
 	>> $outfile
+
+echo Built pkg/github.com.js
