@@ -2160,15 +2160,15 @@ window['_pr_isIE6'] = function () {
 		// Chain
 		return this;
 	}
-})(jQuery);    $(".diff-line").each(function() {
+})(jQuery);    $(".diff-line-code").each(function() {
         var t = $(this);
         var text = $.trim(t.text());
         t.contents().filter(function() { return this.nodeType == Node.TEXT_NODE; }).remove()
         t.append("<pre></pre>");
         t.find("pre").text(text);
     }) 
-    $(".diff-line pre").addClass("highlight");
-    $("td.gd.diff-line pre").css({backgroundColor: "#FDD"});
-    $("td.gi.diff-line pre").css({backgroundColor: "#DFD"});
-	setTimeout(function(){ $.SyntaxHighlighter.init({lineNumbers: false}); }, 900);
+    $(".diff-line-code pre").addClass("highlight");
+    $(".file-diff-line.gd .diff-line-code pre").css({backgroundColor: "#FDD"});
+    $(".file-diff-line.gi .diff-line-code pre").css({backgroundColor: "#DFD"});
+	setTimeout(function(){ $.SyntaxHighlighter.init({lineNumbers: false}); }, 200);
 });
