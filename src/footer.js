@@ -2,6 +2,7 @@
         var t = $(this);
         var text = $.trim(t.text());
         t.contents().filter(function() { return this.nodeType == Node.TEXT_NODE; }).remove()
+        t.contents().filter(function() { return this.nodeName == "SPAN"; }).remove()
         t.append("<pre></pre>");
         t.find("pre").text(text);
     }) 
