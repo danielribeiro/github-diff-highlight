@@ -1,7 +1,9 @@
 github-diff-highlight
 =====================
 
-Simple [dot.js](http://defunkt.io/dotjs/) script that enables syntax highlight for commit diffs on github:
+*NOTE:* If you want a easier way to get the same effect, check out the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
+
+Simple [dot.js](http://defunkt.io/dotjs/) script that enables syntax highlight for commit diffs on GitHub:
 
 ![](https://github.com/danielribeiro/github-diff-highlight/raw/master/docs/example.png)
 
@@ -10,7 +12,7 @@ Install
 
 You can istall it in one line (assuming you've installed [dot.js](http://defunkt.io/dotjs/)):
 
-	$ curl https://raw.github.com/danielribeiro/github-diff-highlight/master/pkg/github.com.js >> ~/.js/github.com.js
+    $ curl https://raw.github.com/danielribeiro/github-diff-highlight/master/pkg/github.com.js >> ~/.js/github.com.js
 
 Hacking
 -----
