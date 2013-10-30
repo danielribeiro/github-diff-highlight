@@ -1,21 +1,27 @@
-github-diff-highlight
-=====================
+# github-diff-highlight
 
-*NOTE:* If you want a easier way to get the same effect, check out the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
+
+# IMPORTANT: This project is DEPRECATED
+
+
+## Plese use the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
+
+
+# Old Readme
+
 
 Simple [dot.js](http://defunkt.io/dotjs/) script that enables syntax highlight for commit diffs on GitHub:
 
 ![](https://github.com/danielribeiro/github-diff-highlight/raw/master/docs/example.png)
 
-Install
------
+## Install
 
 You can istall it in one line (assuming you've installed [dot.js](http://defunkt.io/dotjs/)):
 
     $ curl https://raw.github.com/danielribeiro/github-diff-highlight/master/pkg/github.com.js >> ~/.js/github.com.js
 
-Hacking
------
+## Hacking
+
 The project is based on [jquery-syntaxhighlighter](http://balupton.github.com/jquery-syntaxhighlighter/demo/), which is itself based on [Google's Prettify](http://code.google.com/p/google-code-prettify/). If you wanna hack it yourself, read on.
 
 My fork of [jquery-syntaxhighlighter](https://github.com/balupton/jquery-syntaxhighlighter) is included inline in the project (my fork essentially removes borders on the highlighted pre elements).
@@ -25,8 +31,8 @@ The build.sh script composes all relevant jquery-syntaxhighlighter assets, inclu
 highlighter_patch.js essentially prevents unneeded remote loading of assets (as they are all included in the final github.com.js).
 
 
-Meta
-----
+## Meta
+
 
 Created by [Daniel Ribeiro](http://metaphysicaldeveloper.wordpress.com/about-me). 
 
