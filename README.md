@@ -4,7 +4,7 @@
 # IMPORTANT: This project is DEPRECATED
 
 
-## Plese use the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
+## Plaese use the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
 
 
 # Old Readme
@@ -16,7 +16,7 @@ Simple [dot.js](http://defunkt.io/dotjs/) script that enables syntax highlight f
 
 ## Install
 
-You can istall it in one line (assuming you've installed [dot.js](http://defunkt.io/dotjs/)):
+You can install it in one line (assuming you've installed [dot.js](http://defunkt.io/dotjs/)):
 
     $ curl https://raw.github.com/danielribeiro/github-diff-highlight/master/pkg/github.com.js >> ~/.js/github.com.js
 
