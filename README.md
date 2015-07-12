@@ -1,10 +1,10 @@
 # github-diff-highlight
 
 
-# IMPORTANT: This project is DEPRECATED
+# Notice: This project is DEPRECATED
 
 
-## Plaese use the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
+## Please use the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
 
 
 # Old Readme
