@@ -1,14 +1,7 @@
 # github-diff-highlight
-
-
-# Notice: This project is DEPRECATED
-
-
-## Please use the [Chrome Extension](http://bit.ly/15OWxUv). This project is deprecated in favor or it (source [here](https://github.com/danielribeiro/github-diff-highlight-extension))
-
+**Important:** this project is deprecated, since GitHub supports this natively: https://github.com/blog/1932-syntax-highlighted-diffs
 
 # Old Readme
-
 
 Simple [dot.js](http://defunkt.io/dotjs/) script that enables syntax highlight for commit diffs on GitHub:
 
